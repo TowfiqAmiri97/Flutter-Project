@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "492016775128",
+    "project_id": "chatmat-97ea2",
+    "storage_bucket": "chatmat-97ea2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:492016775128:android:86e2052e0fbbe1e0924cad",
+        "android_client_info": {
+          "package_name": "com.example.chat_mat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "492016775128-6cmun85ct4r2h41urg1t8sei21cgopj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHv0feU7kLduN9Xr5jEkteY47n7WEz2vk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "492016775128-6cmun85ct4r2h41urg1t8sei21cgopj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
