@@ -2,17 +2,17 @@ import 'package:chat_mat/models/loginuser.dart';
 import 'package:chat_mat/services/auth.dart';
 import 'package:flutter/material.dart';
 
-class Register extends StatefulWidget {
+class SignupPage extends StatefulWidget {
   final Function? toggleView;
-  Register({this.toggleView});
+  SignupPage({this.toggleView});
 
   @override
   State<StatefulWidget> createState() {
-    return _Register();
+    return _SignupPage();
   }
 }
 
-class _Register extends State<Register> {
+class _SignupPage extends State<SignupPage> {
   final AuthService _auth = AuthService();
 
   bool _obscureText = true;
@@ -73,7 +73,7 @@ class _Register extends State<Register> {
         },
         child: const Text('Login'));
 
-    final registerButton = Material(
+    final SignupButton = Material(
       elevation: 5.0,
       borderRadius: BorderRadius.circular(30.0),
       color: Colors.blue,
@@ -131,7 +131,7 @@ class _Register extends State<Register> {
                   const SizedBox(height: 25.0),
                   passwordField,
                   const SizedBox(height: 45.0),
-                  registerButton,
+                  SignupButton,
                   const SizedBox(height: 15.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

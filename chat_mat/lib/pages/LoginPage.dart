@@ -1,20 +1,19 @@
+import 'package:chat_mat/models/loginuser.dart';
+import 'package:chat_mat/services/auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-import '../models/loginuser.dart';
-import '../services/auth.dart';
-
-class Login extends StatefulWidget {
+class LoginPage extends StatefulWidget {
   final Function? toggleView;
-  Login({this.toggleView});
+  LoginPage({this.toggleView});
 
   @override
   State<StatefulWidget> createState() {
-    return _Login();
+    return _LoginPage();
   }
 }
 
-class _Login extends State<Login> {
+class _LoginPage extends State<LoginPage> {
   bool _obscureText = true;
 
   final _email = TextEditingController();
@@ -77,7 +76,7 @@ class _Login extends State<Login> {
         },
         child: const Text('Create Account'));
 
-    final loginEmailPasswordButon = Material(
+    final LoginEmailPasswordButon = Material(
       elevation: 5.0,
       borderRadius: BorderRadius.circular(30.0),
       color: Colors.blue,
@@ -135,7 +134,7 @@ class _Login extends State<Login> {
                   const SizedBox(height: 25.0),
                   passwordField,
                   const SizedBox(height: 45.0),
-                  loginEmailPasswordButon,
+                  LoginEmailPasswordButon,
                   const SizedBox(height: 15.0),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,

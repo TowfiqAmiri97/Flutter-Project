@@ -1,8 +1,8 @@
+import 'package:chat_mat/models/firebaseuser.dart';
+import 'package:chat_mat/pages/authenticate/handler.dart';
 import 'package:chat_mat/pages/home/home.dart';
 import 'package:provider/provider.dart';
-import '../models/firebaseuser.dart';
 import 'package:flutter/material.dart';
-import 'authenticate/handler.dart';
 
 class Wrapper extends StatelessWidget {
   @override

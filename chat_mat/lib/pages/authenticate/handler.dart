@@ -21,9 +21,9 @@ class _Handler extends State<Handler> {
   @override
   Widget build(BuildContext context) {
     if (showSignin) {
-      return Login(toggleView: toggleView);
+      return LoginPage(toggleView: toggleView);
     } else {
-      return Register(toggleView: toggleView);
+      return SignupPage(toggleView: toggleView);
     }
   }
 }

@@ -25,7 +25,7 @@ class _Home extends State<Home> {
         },
         child: Text(
           "Log out",
-          style: TextStyle(color: Theme.of(context).primaryColorLight),
+          style: const TextStyle(color: Colors.white),
           textAlign: TextAlign.center,
         ),
       ),
@@ -33,8 +33,8 @@ class _Home extends State<Home> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login Demo App - HomePage'),
-        backgroundColor: Theme.of(context).primaryColor,
+        title: const Text('ChatMAT'),
+        backgroundColor: Colors.blue,
       ),
       body: Center(child: SignOut),
     );
